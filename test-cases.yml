@@ -193,9 +193,9 @@
     Name = test; Type = individual; Access_type = token; Level = elementary;
     Default language = js; Match timeout = 180;
   steps:
-    - Кликнуть по ссылке 'Tournaments info'
+    - Нажать на гиперссылку 'Tournaments info'
     - Заполнить форму 'Create a new tournament' в соответствии с тестовыми данными
-    - Указать корректную дату и время
+    - Указать дату и время на следующий день
     - Нажать 'Create'
   expected-result: |
     Турнир появился в списке турниров.
